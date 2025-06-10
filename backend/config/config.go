@@ -9,6 +9,7 @@ import (
 
 type Config struct {
 	Server ServerConfig
+	Cors   CorsConfig
 }
 
 func GetConfig() (*Config, error) {

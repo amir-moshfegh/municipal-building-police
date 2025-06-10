@@ -1,3 +1,13 @@
 server:
   host: "localhost"
   port: ":8080"
+  readTimeout: 5s
+  writeTimeout: 5s
+  IdleTimeout: 120s
+
+cors:
+  allowOrigin: "*"
+  allowMethods: "GET, POST, PUT, DELETE, OPTIONS"
+  allowHeaders: "Content-Type, Authorization"
+  exposeHeaders: ""
+  maxAge: 24h
